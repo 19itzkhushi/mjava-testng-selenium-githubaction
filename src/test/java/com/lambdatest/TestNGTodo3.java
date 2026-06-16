@@ -21,8 +21,8 @@ public class TestNGTodo3 {
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
-        String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
-        String authkey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
+        String username = "sreehari.balisetty";
+        String authkey = "qYc07omOoisguu6AxbuEmDsLGeefw7rc21jQiTDl7VoOQTiCP3";
 
         String hub = "@hub.lambdatest.com/wd/hub";
 

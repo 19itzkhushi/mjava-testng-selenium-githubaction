@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="20" parallel="tests" name="Suite">
-  <test thread-count="20" parallel="classes" name="Test">
+
+<suite thread-count="20" parallel="tests" name="My suite running">
+  <test thread-count="20" parallel="classes" name="Cases">
     <classes>
       <class name="com.lambdatest.TestNGTodo1"/>
       <class name="com.lambdatest.TestNGTodo2"/>
@@ -9,3 +10,4 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+
