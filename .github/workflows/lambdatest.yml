@@ -26,7 +26,7 @@ jobs:
           cache: maven
 
       - name: Run TestNG Suite
-        run: mvn clean test -DsuiteXmlFile=single.xml
+        run: mvn clean test -Dsuite=single.xml
 
       - name: Upload Reports
         if: always()

@@ -45,7 +45,7 @@ public class TestNGTodo1 {
         // ✅ Use LambdaTest W3C-compliant structure (LT:Options)
         MutableCapabilities ltOptions = new MutableCapabilities();
         ltOptions.setCapability("build", "TestNG With Java-selenium");
-        ltOptions.setCapability("platformName", "win10");
+        ltOptions.setCapability("platformName", "win11");
         // Windows platform
         ltOptions.setCapability("username", username);
         ltOptions.setCapability("accessKey", authkey);
